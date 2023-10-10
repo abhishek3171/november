@@ -1,0 +1,3 @@
+    - name: Restart {{pkag}} service
+      action: service name={{pkag}} state=restarted
+

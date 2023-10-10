@@ -1,0 +1,9 @@
+---
+# This is a basic ansible playbook
+- hosts: demo
+  user: ansible
+  connection: ssh
+  become: yes
+  gather_facts: yes
+  roles:
+    - myroles
